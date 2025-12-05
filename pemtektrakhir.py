@@ -47,7 +47,7 @@ with st.form("form_pesan"):
 if submitted:
     if pengirim_pesan.strip() and pesan.strip():
         new_row = {"Nama": pengirim_pesan, "Pesan": pesan}
-        conn.append(worksheet=WS_NAME, data=[new_row])
+        conn.append(worksheet=Sheet1, data=[new_row])
         st.success("Terima kasih! P2 ❤️")
     else:
         st.warning("Nama dan pesan tidak boleh kosong.")
@@ -67,3 +67,4 @@ if password == "PeDua":
         st.error("Gagal membaca data — cek konfigurasi Google Sheet & permission.")
 elif password:
     st.error("Password salah.")
+
