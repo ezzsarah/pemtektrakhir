@@ -173,6 +173,27 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Environment / virtual environment (jika ada)
+.env/
+venv/
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Data folder (opsional: jika kamu tidak ingin ikut push data lokal)
+data/
+
+# Credentials / secrets (jika kamu simpan kredensial, jangan commit)
+.env
+secrets.toml
+
+
 # Cursor  
 #  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to 
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
