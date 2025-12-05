@@ -2,4 +2,4 @@ streamlit
 numpy
 matplotlib
 pandas
-streamlit-gsheets-connection
+git+https://github.com/streamlit/gsheets-connection
